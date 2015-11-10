@@ -51,8 +51,7 @@
         NSLog(@"NOT SINCE 1938!");
     }
     
-    // Advanced part see above in variable decleclarations
-    
+    // Advanced part see above in variable declaration    
 
     return YES; // Don't alter this statement.
 }
