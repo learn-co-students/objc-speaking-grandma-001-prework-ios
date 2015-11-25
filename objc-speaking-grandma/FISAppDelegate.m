@@ -11,6 +11,9 @@
     NSString *shoutAtGrandma = [talkToGrandma uppercaseString];
     BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
     
+    talkToGrandma = @"Hey, Grandma!";
+    shoutAtGrandma = [talkToGrandma uppercaseString];
+    
     if (![talkToGrandma isEqualToString:shoutAtGrandma]) {
         NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
     } else {
