@@ -18,10 +18,9 @@
     NSString *talkToGrandma = @"HI, GRANDMA!";
     NSString *shoutAtGrandma = [talkToGrandma uppercaseString];
     BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
-    if (shouting) {
-        NSLog(@"NO, NOT SINCE 1938!");
-        
-    }
+    
+    talkToGrandma = @"Hi, Grandma!";
+    shoutAtGrandma = [talkToGrandma uppercaseString];
     
         if (shouting) {
             NSLog(@"NO, NOT SINCE 1938!");
