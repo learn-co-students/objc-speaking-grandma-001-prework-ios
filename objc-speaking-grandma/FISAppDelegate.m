@@ -13,6 +13,13 @@
      
      */
     
+    NSString *talkToGrandma = @"HI, GRANDMA!";
+    NSString *shoutAtGrandma = [talkToGrandma uppercaseString];
+    BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
+    
+    talkToGrandma = @"Hi, Grandma!";
+    shoutAtGrandma = [talkToGrandma uppercaseString];
+    
     return YES; // Don't alter this statement.
 }
 
