@@ -13,16 +13,16 @@
      
      */
     
-    // CODE-ALONG II: DIRECT EVALUATION
+    // CODE-ALONG III: INVERTED CHECK
     
-    NSString *talkToGrandma = @"Hi, Grandma!";
-//    NSString *talkToGrandma = @"HI, GRANDMA!";
+//    NSString *talkToGrandma = @"Hi, Grandma!";
+    NSString *talkToGrandma = @"HI, GRANDMA!";
     NSString *shoutAtGrandma = [talkToGrandma uppercaseString];
 //    BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
-    if ([talkToGrandma isEqualToString:shoutAtGrandma]) {
-        NSLog(@"NO, NOT SINCE 1938!");
-    } else {
+    if (![talkToGrandma isEqualToString:shoutAtGrandma]) {
         NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    } else {
+        NSLog(@"NO, NOT SINCE 1938!");
     }
     
     return YES; // Don't alter this statement.
