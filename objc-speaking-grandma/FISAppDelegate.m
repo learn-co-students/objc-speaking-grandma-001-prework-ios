@@ -13,13 +13,13 @@
      
      */
     
-    // CODE-ALONG I: TALK TO GRANDMA
+    // CODE-ALONG II: DIRECT EVALUATION
     
-//    NSString *talkToGrandma = @"Hi, Grandma!";
-    NSString *talkToGrandma = @"HI, GRANDMA!";
+    NSString *talkToGrandma = @"Hi, Grandma!";
+//    NSString *talkToGrandma = @"HI, GRANDMA!";
     NSString *shoutAtGrandma = [talkToGrandma uppercaseString];
-    BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
-    if (shouting) {
+//    BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
+    if ([talkToGrandma isEqualToString:shoutAtGrandma]) {
         NSLog(@"NO, NOT SINCE 1938!");
     } else {
         NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
