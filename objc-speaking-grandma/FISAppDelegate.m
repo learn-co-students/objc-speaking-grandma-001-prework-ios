@@ -25,7 +25,7 @@
         NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
     }
     
-    NSString *talktoGrandma = @"Hi, Grandma!";
+ 
     if (!shouting) {
         NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
     } else {
@@ -34,7 +34,7 @@
     if (![talkToGrandma isEqualToString:shoutingAtGrandma]) {
         NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
     } else {
-        NSLog(@"NO, NOT SINCE 1938!");
+        NSLog(@"NO, NOT SINCE 1938!");}
         
     
     return YES; // Don't alter this statement.
