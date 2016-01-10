@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0761B895CF74278DCCB7762CBAB706C2C1959175",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0761B895CF74278DCCB7762CBAB706C2C1959175" : 0,
+    "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6943C80A-453B-4101-ACFB-A8F7ACA6F97C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0761B895CF74278DCCB7762CBAB706C2C1959175" : "objc-speaking-grandma-001-prework-ios\/",
+    "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-speaking-grandma",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-speaking-grandma.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SunFloweri\/objc-speaking-grandma-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0761B895CF74278DCCB7762CBAB706C2C1959175"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SunFloweri\/objc-parrot-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F"
+    }
+  ]
+}
