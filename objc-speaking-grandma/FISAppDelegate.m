@@ -11,9 +11,47 @@
      
      * Write your code here!
      
+
+     
      */
     
-    return YES; // Don't alter this statement.
-}
+    
+    
+    NSString *talkToGrandma = @"What's up G!?";
+    NSString *shoutAtGrandma = [talkToGrandma uppercaseString];
+    BOOL shouting = [talkToGrandma isEqualToString:shoutAtGrandma];
+    
+    talkToGrandma = @"What's up G!?";
+    shoutAtGrandma = [talkToGrandma uppercaseString];
+    if (shouting) {
+        NSLog(@"NO, NOT SINCE 1932!");
+    } else {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    }
+    if ([talkToGrandma isEqualToString:shoutAtGrandma]) {
+        NSLog(@"NO, NOT SINCE 1932!");
+    } else {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    }
+    if (!shouting) {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    } else {
+        NSLog(@"NO, NOT SINCE 1932!");
+    }
+    if (![talkToGrandma isEqualToString:shoutAtGrandma]) {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    } else {
+        NSLog(@"NO, NOT SINCE 1932!");
+    }
+    }
+
+    
+    /**
+     */
+    
+
+
+
+//return YES; // Don't alter this statement.
 
 @end
