@@ -5,13 +5,33 @@
 @implementation FISAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     
-    /**
-     
-     * Write your code here!
-     
-     */
+    NSString *talkToGrandma = @"HI, GRANDMA!";
+    NSString *shouthAtGrandma = [talkToGrandma uppercaseString];
+    
+    BOOL shouting = [talkToGrandma isEqualToString:shouthAtGrandma];
+    
+    talkToGrandma = @"Hi, Grandma";
+    shouthAtGrandma = [talkToGrandma uppercaseString];
+    
+    if (shouting) {
+        NSLog(@"NO, NOT SINCE 1938!");
+    } else  {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    }
+    
+    if ([talkToGrandma isEqualToString:shouthAtGrandma]) {
+        NSLog(@"NO, NOT SINCE 1938!");
+    } else {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    }
+    
+    if (!shouting) {
+        NSLog(@"WHAT'S THAT? SPEAK UP, DEAR!");
+    } else {
+        NSLog(@"NO, NOT SINCE 1938!");
+    }
+    
     
     return YES; // Don't alter this statement.
 }
