@@ -4,6 +4,12 @@
 
 @implementation FISAppDelegate
 
+// Objectives:
+// 1. Convert a string to its uppercase version.
+// 2. Capture the result of a comparison method into a BOOL variable.
+// 3. Practice flow control by using an if/else statement.
+// 4. Use the negation operator (!) to perform an inverted check.
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
