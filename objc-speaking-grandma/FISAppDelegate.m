@@ -10,6 +10,9 @@
 // 3. Practice flow control by using an if/else statement.
 // 4. Use the negation operator (!) to perform an inverted check.
 
+// Advanced:
+// 1. Change the compared objects after capturing the result of the comparison into a BOOL variable. See what happens.
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
