@@ -105,7 +105,7 @@ if (![talkToGrandma isEqualToString:shoutAtGrandma]) {
 
 ### Advanced
 
-Immediately after declaring the `shouting` boolean and setting it to the return from the `isEqualToString:` method, redefine the `talkToGrandma` string back to your regular sentence containing lowercase letters. Also redefine `shoutAtGrandma` to capture the return of the same `uppercaseString` method call:
+Immediately after declaring the `shouting` boolean and setting it to the return from the `isEqualToString:` method, reassign the `talkToGrandma` string to your regular sentence containing lowercase letters. Also reassign `shoutAtGrandma` to capture the return of the same `uppercaseString` method call:
 
 ```objc
 NSString *talkToGrandma = @"HI, GRANDMA!";
