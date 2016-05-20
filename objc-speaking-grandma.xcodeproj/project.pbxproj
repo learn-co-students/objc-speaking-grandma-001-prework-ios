@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0377B6C2B780A55AEEECCB92 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837229EC9ED0AEDDDAB9CADB /* FISAppDelegate.m */; };
+		1BCBA7191CEE90CC00D41962 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837229EC9ED0AEDDDAB9CADB /* FISAppDelegate.m */; };
 		79757ABB4D1426DFDD4603E5 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 61B79C1AF52BB445EB2E2A32 /* LaunchScreen.xib */; };
 		7B5862848B8903ECA3B7C946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E87236B6C073D23313B116 /* Foundation.framework */; };
 		7E356B9BDD7298AF1017E623 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ABA1D3EA0FB78FFFB6E987 /* Images.xcassets */; };
@@ -265,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCBA7191CEE90CC00D41962 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
