@@ -21,9 +21,6 @@
     
     }
     return YES; // Don't alter this statement.
+
 }
-
-
-//  Code Along 2 - Direct Evaluation
-
 @end
